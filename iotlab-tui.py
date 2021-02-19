@@ -13,6 +13,7 @@ class SubW(Window):
 
     def keypress(self, key):
         if (key == ord('q')):
+            self._refresh = True
             return self.parent
         return self
 
